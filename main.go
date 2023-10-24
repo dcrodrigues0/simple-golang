@@ -12,7 +12,7 @@ func main() {
 	router.POST("/albums", postAlbums)
 	router.GET("/albums/:id", getAlbumByID)
 
-	router.Run("localhost:8080")
+	router.Run()
 }
 
 // album represents data about a record album.
